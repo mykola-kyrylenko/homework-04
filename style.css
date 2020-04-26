@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+
+.logotype {
+    font-size: 20px;
+    line-height: 32px;
+    text-transform: uppercase;
+    font-weight: 300;
+    float: left;
+    font-family: 'Roboto',
+        sans-serif;
+    color: rgba(0, 0, 0, 1);
+}
+
+.logotype::first-letter {
+    color: rgba(26, 188, 156, 1);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Roboto',
+        sans-serif;
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.navigation__link:not(:last-child) {
+    margin-right: 36px;
+}
+
+
+.navigation__item {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: - 0.02em;
+    font-family: 'Roboto',
+        sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    float: right;
+}
+
+.navigation__link {
+    float: left;
+    margin-top: 8px;
+}
+
+header {
+    padding-top: 40px;
+    padding-bottom: 90px;
+    font-family: 'Roboto',
+        sans-serif;
+}
+
+.menu__item {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: - 0.02em;
+    color: #000000;
+    font-weight: bold;
+}
+
+.navigation__link a:hover {
+    color: rgba(26, 188, 156, 1);
+}
+
+h2 {
+    font-size: 48px;
+    font-family: "Roboto";
+    line-height: 1.15;
+    letter-spacing: - 0.02em;
+    color: #000000;
+    text-transform: uppercase;
+    color: rgba(81, 81, 81, 1);
+    text-align: center;
+    padding-bottom: 104px;
+}
+
+h2::after {
+    display: block;
+    content: "";
+    width: 164px;
+    height: 7px;
+    background-color: rgba(26, 188, 156, 1);
+    margin: 0 auto;
+    margin-top: 32px;
+}
+
+.product_image {
+    background-color: rgb(233, 240, 253);
+    width: 255px;
+    height: 282px;
+}
+
+.products_items {
+    float: right;
+}
+
+.product {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.product:nth-child(4) {
+    margin: 0 auto;
+}
+
+.product:nth-child(8) {
+    margin: 0 auto;
+}
+
+span {
+    background-color: rgba(50, 50, 50, 1);
+}
+
+.product__name {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 40px;
+    color: rgba(255, 255, 255, 1);
+    float: left;
+    text-transform: uppercase;
+    width: 202px;
+    height: 40px;
+    padding-left: 14px;
+    font-weight: 700;
+}
+
+.price {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 40px;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 53px;
+    height: 40px;
+    padding-left: 11px;
+    opacity: 0.439;
+}
+
+.product :hover {
+    background-color: rgba(26, 188, 156, 1);
+}
+
+.box {
+    padding-bottom: 104px;
+}
+
+.news_items {
+    width: 350px;
+    height: 262px;
+    float: left;
+}
+
+.news_items:not(:last-child) {
+    margin-right: 30px;
+}
+
+.semibold_text {
+    font-family: 'Open Sans',
+        sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+    color: rgba(85, 82, 82, 1);
+    padding-bottom: 30px;
+}
+
+.news_image {
+    padding-bottom: 8px;
+}
+
+.semibold_text::after {
+    display: block;
+    content: "";
+    width: 136px;
+    height: 3px;
+    background-color: rgba(78, 198, 171, 1);
+    margin-top: 10px;
+}
+
+.open_sans_400 {
+    font-size: 14px;
+    line-height: 26px;
+    font-family: 'Open Sans',
+        sans-serif;
+    color: rgba(85, 82, 82, 1);
+    padding-bottom: 15px;
+}
+
+.news_link {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 51px;
+    font-family: 'Open Sans',
+        sans-serif;
+    width: 160px;
+    height: 51px;
+    color: #fff;
+    margin: 0 auto;
+    padding-top: 12px;
+    line-height: 1.625;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 3px;
+    background-color: rgba(78, 198, 171, 1);
+    cursor: pointer;
+    position: absolute;
+}
